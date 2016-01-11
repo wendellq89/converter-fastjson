@@ -26,14 +26,14 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.squareup.retrofit2:retrofit:2.0.0-beta3'
 }
-def siteUrl = 'https://github.com/wang-qian/FastjsonConverter'
-def gitUrl = 'https://github.com/wang-qian/FastjsonConverter.git'
+def siteUrl = 'https://github.com/wang-qian/converter-fastjson'
+def gitUrl = 'https://github.com/wang-qian/converter-fastjson.git'
 
 install {
     repositories.mavenInstaller {
         pom {
             project {
-                packaging 'jar'
+                packaging 'aar'
                 name 'fastjson converter for retrofit2'
                 url siteUrl
                 licenses {
