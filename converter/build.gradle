@@ -4,7 +4,7 @@ apply plugin: 'com.jfrog.bintray'
 
 group = "com.wangqian"
 //artifactId 是module的名字
-version = "0.0.2-beta3"
+version = "0.0.3-beta3"
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.2"
