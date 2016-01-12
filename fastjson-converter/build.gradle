@@ -1,8 +1,10 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
-version = "0.0.1-beta3"
+
 group = "com.wangqian"
+//artifactId 是module的名字
+version = "0.0.2-beta3"
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.2"
