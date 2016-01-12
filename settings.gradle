@@ -1,1 +1,1 @@
-include ':app', ':fastjson-converter'
+include ':app', ':converter'
